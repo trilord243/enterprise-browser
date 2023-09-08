@@ -3,21 +3,14 @@ import imagen from '../assets/kisspng-barcode-scanners-stock-photography-label-b
 
 function Hero() {
     return (
-        <div className='h-screen w-full  flex mt-32 justify-center '>
-
-
-
-            <div className=' flex w-9/12 h-16 rounded-3xl bg-sky-400  items-center text-center justify-center content-center '>
-                <h1 className=' text-4xl font-bold '>Comenzando lectura</h1>
-                <span className="loading loading-dots loading-lg mt-6 ml-3 "></span>
-
-
-
+        <div className='h-screen w-full flex justify-center items-center bg-gradient-to-br from-sky-300 to-sky-500'>
+            <div className='flex w-9/12 h-24 rounded-3xl bg-white shadow-xl items-center justify-between p-6'>
+                <h1 className='text-4xl font-bold'>Comenzando lectura</h1>
+                <span className="loading loading-dots loading-lg mt-1"></span>
             </div>
         </div>
-
-
-    )
+    );
 }
+
 
 export default Hero

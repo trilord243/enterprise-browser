@@ -4,23 +4,18 @@ import trabajador from '../assets/download.jpg'
 
 function Navbar() {
     return (
-        <div className="navbar  shadow-md h-[7rem] items-center px-">
+        <div className="navbar bg-white shadow-md h-[7rem] flex items-center px-8">
             <div className="flex-1">
-                <img className='' src={imagen} alt='asda' />
+                <img className='h-20' src={imagen} alt='Logo' />
             </div>
-
             <div className="avatar">
-                <div className="w-24 rounded-full">
-                    <img src={trabajador} alt="hola" />
+                <div className="w-24 h-24 rounded-full border overflow-hidden">
+                    <img className='w-full h-full object-cover' src={trabajador} alt="Avatar" />
                 </div>
             </div>
-
-
-
-
-
         </div>
-    )
+    );
 }
+
 
 export default Navbar
